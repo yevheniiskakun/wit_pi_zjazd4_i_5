@@ -1,0 +1,201 @@
+
+
+
+<html lang="pl-PL">
+  <head>
+    <meta charset="utf-8">
+
+   
+	<title>Product list PI Zjazd 2</title>
+
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1573/1573145.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+      <script>
+
+      </script>
+      <style>
+          body{
+            background-image: url('https://i.pinimg.com/474x/e0/c3/73/e0c37353aed33c638aedcd57d21e3ce2.jpg');
+          }
+          #ProductListBody{
+            background-color: #ffe1a8;
+            max-width: 880px;
+            width: 100%;
+            margin: 30px auto;
+            padding: 30px 0 50px 0;
+            border-radius: 5px;
+          }
+      </style>
+  </head>
+
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload="">
+	
+
+
+<div id="ProductListBody">
+    <figure class="text-center my-4">
+      <blockquote class="blockquote">
+        <h2>Lista produktów</h2>
+      </blockquote>
+    </figure>
+  <div class="container text-center">
+    <div id="AddNewProductForm" class="row justify-content-center d-flex" >
+      <form style="max-width: 700px;" method="POST" action="add_product" id="AddProductToListForm">
+        <input type="hidden" name="csrfmiddlewaretoken" value="RAAkiSBiiAdqvw4tDDbspFMjxSBUL3pt728ipC86TiVPkItQwKUyasOdrwQOenis">
+        <div class="mb-3" >
+          <label for="new_product" class="form-label">Produkt:</label>
+          <input type="text" class="form-control" id="new_product" name="new_product" aria-describedby="emailHelp" required>
+        </div>
+        <a href="/add_product">
+          <button type="submit" class="btn btn-primary">Dodaj</button>
+        </a>
+      </form>
+    </div>
+  </div>
+
+  
+  <div class="container text-center">
+    <div id="MainProductList" class="row justify-content-center d-flex">
+      <div class="card mb-3" style="max-width: 700px;">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <div class="card-body">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-8">
+                  <h5 class="card-title">Marchewka</h5>
+                </div>
+                <div class="col-4">
+                    <div class="row d-flex flex-column">
+                    <div class="col-12">
+                      <a href="/mark_product/9">
+                        
+                          <button type="submit" class="btn btn-warning" style="min-width: 100px;">Kupione</button>
+                        
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="/delete_product/9">
+                        <button type="submit" class="btn btn-danger mt-2" style="min-width: 100px;">Usuń</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container text-center">
+    <div id="MainProductList" class="row justify-content-center d-flex">
+      <div class="card mb-3" style="max-width: 700px;">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <div class="card-body">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-8">
+                  <h5 class="card-title">Kola 1l</h5>
+                </div>
+                <div class="col-4">
+                    <div class="row d-flex flex-column">
+                    <div class="col-12">
+                      <a href="/mark_product/11">
+                        
+                          <button type="submit" class="btn btn-success" style="min-width: 100px;">&#10003;</button>
+                        
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="/delete_product/11">
+                        <button type="submit" class="btn btn-danger mt-2" style="min-width: 100px;">Usuń</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container text-center">
+    <div id="MainProductList" class="row justify-content-center d-flex">
+      <div class="card mb-3" style="max-width: 700px;">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <div class="card-body">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-8">
+                  <h5 class="card-title">Pierogi 4kg</h5>
+                </div>
+                <div class="col-4">
+                    <div class="row d-flex flex-column">
+                    <div class="col-12">
+                      <a href="/mark_product/12">
+                        
+                          <button type="submit" class="btn btn-warning" style="min-width: 100px;">Kupione</button>
+                        
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="/delete_product/12">
+                        <button type="submit" class="btn btn-danger mt-2" style="min-width: 100px;">Usuń</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container text-center">
+    <div id="MainProductList" class="row justify-content-center d-flex">
+      <div class="card mb-3" style="max-width: 700px;">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <div class="card-body">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-8">
+                  <h5 class="card-title">Jabłka Janagold 2kg</h5>
+                </div>
+                <div class="col-4">
+                    <div class="row d-flex flex-column">
+                    <div class="col-12">
+                      <a href="/mark_product/13">
+                        
+                          <button type="submit" class="btn btn-success" style="min-width: 100px;">&#10003;</button>
+                        
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="/delete_product/13">
+                        <button type="submit" class="btn btn-danger mt-2" style="min-width: 100px;">Usuń</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+
+
+
+    </body>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
