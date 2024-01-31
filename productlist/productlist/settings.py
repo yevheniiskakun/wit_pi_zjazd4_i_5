@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-gt%fsi9+*dwax0%jo-7(6h(d#@*vfk!opp7jfv@amp%j3ru&sd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 SITE_ID = 1
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pages',
+    'django_distill',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,12 @@ WSGI_APPLICATION = 'productlist.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'witpizja_productlist_db',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'USER': 'witpizja_db_user',
+        'PASSWORD': '112233',
     }
 }
 
