@@ -41,5 +41,6 @@ python manage.py createsuperuser
 
 ![Under Atack Mode](https://github.com/yevheniiskakun/wit_pi_zjazd4_i_5/assets/56674669/78b96ca9-c360-4cdb-811a-ab4f036f2d28)
 
-![image](https://github.com/yevheniiskakun/wit_pi_zjazd4_i_5/assets/56674669/483c2554-c8fe-446a-8002-bae4bd5525a5)
+![image](https://github.com/yevheniiskakun/wit_pi_zjazd4_i_5/assets/56674669/3cb5ea0f-0720-49e3-8f76-1c28c8a3018e)
+
 
