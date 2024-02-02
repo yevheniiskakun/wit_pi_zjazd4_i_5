@@ -37,7 +37,7 @@ python manage.py runserver
 
 python manage.py createsuperuser
 
-![Cloudflare](https://github.com/yevheniiskakun/wit_pi_zjazd4_i_5/assets/56674669/79150100-c3cc-48ee-bd5c-12ed47fa0d0a)
+![image](https://github.com/yevheniiskakun/wit_pi_zjazd4_i_5/assets/56674669/ba51dc1a-df7d-404f-874f-0381034d2a57)
 
 ![Under Atack Mode](https://github.com/yevheniiskakun/wit_pi_zjazd4_i_5/assets/56674669/78b96ca9-c360-4cdb-811a-ab4f036f2d28)
 
