@@ -36,3 +36,10 @@ python manage.py migrate
 python manage.py runserver
 
 python manage.py createsuperuser
+
+![Cloudflare](https://github.com/yevheniiskakun/wit_pi_zjazd4_i_5/assets/56674669/79150100-c3cc-48ee-bd5c-12ed47fa0d0a)
+
+![Under Atack Mode](https://github.com/yevheniiskakun/wit_pi_zjazd4_i_5/assets/56674669/78b96ca9-c360-4cdb-811a-ab4f036f2d28)
+
+![image](https://github.com/yevheniiskakun/wit_pi_zjazd4_i_5/assets/56674669/483c2554-c8fe-446a-8002-bae4bd5525a5)
+
